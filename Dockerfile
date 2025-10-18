@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy JAR
-COPY target/java-docker-example-1.0.0-jar-with-dependencies.jar app.jar
+COPY target/*jar app.jar
 
 # Run the JAR
 ENTRYPOINT ["java", "-jar", "app.jar"]
