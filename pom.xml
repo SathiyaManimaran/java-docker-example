@@ -22,7 +22,7 @@
       <configuration>
         <archive>
           <manifest>
-            <mainClass>com.example.Main</mainClass> <!-- Replace this -->
+            <mainClass>helloworld.App</mainClass> <!-- Replace this -->
           </manifest>
         </archive>
       </configuration>
